@@ -7,7 +7,6 @@ import org.openqa.selenium.support.FindBy;
 public class LoginPage
 {
 	WebDriver driver;
-	
 	// This is new commit from kshitija
 	public LoginPage(WebDriver ldriver)//Parameterized constructor
 	{
@@ -31,7 +30,6 @@ public class LoginPage
 		{
 			
 		}
-		
 		logInBtn.click();
 		
 		usrName.sendKeys(username);
